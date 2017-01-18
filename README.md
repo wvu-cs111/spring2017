@@ -137,7 +137,7 @@ int[] answer = {1, 5, 1, 0};
 int[] answer = {3, 6, 4, 3};
 ```
 
-### Alternative testing
+### Alternative testing (Optional)
 Perhaps we do not want to wait until we have a functioning readData method before testing ERDataAnalyzer. In this case we have a couple options.
 
 1. Make generateTestData() from our ERDataReaderTest class public. We could use this data since we know what the values are that get generated. However, if we use this approach, we still don't necessarily know what the correct output should be of the ERDataAnalyzer functions - we would only know what the input data is.
