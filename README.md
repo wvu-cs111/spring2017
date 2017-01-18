@@ -29,10 +29,10 @@ Eclipse has the ability to import Java Projects directly from a github repositor
 4. In the URI field, paste ```https://github.com/wvu-cs111/spring2017.git``` and then click Next.
 5. For Branch Selection, ensure the ```master``` branch is selected and click Next.
 6. Choose an empty directory for the repository.  This is where the spring2017 repository will be copied. The directory you choose must be empty (you cannot use the cs111_assignments directory we had been previously using). The name of the directory does not need to be ```spring2017```. You can name the repository whatever you wish. If you choose a directory which does not exist, Eclipse will create it for you. For example, you could enter:
-```
-code/cs111/lab_assignments
-```
-After choosing an empty directory, click Next.
+   ```
+   code/cs111/lab_assignments
+   ```
+   After choosing an empty directory, click Next.
 7. Select Import existing Eclipse Projects and click Next.
 8. You should see Eclipse has automatically found and selected the assignment2 project for import. Click Finish.
 
