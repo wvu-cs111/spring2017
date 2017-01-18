@@ -103,7 +103,7 @@ public class ERDataAnalyzerTest {
 }
 ```
 
-Now you need to implement the remaining tests.  Fix any methods which fail to pass the test. The expected values of each method are provided in the next section. In the case of any methods which return decimal values (such the averaging methods), you must modify the assertArrayEquals method so that the test will pass if the difference between the decimal values are minimal.
+Now you need to implement the remaining tests.  Fix any methods which fail to pass the test. The expected values of each method are provided in the next section. In the case of any methods which return decimal values (such as the averaging methods), you must modify the assertArrayEquals method so that the test will pass if the difference between the decimal values are minimal.
 ```java
 double delta = 0.00001;
 assertArrayEquals(expecteds, actuals, delta)
