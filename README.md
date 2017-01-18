@@ -4,6 +4,7 @@ For this lab assignment, you will correct and improve your solutions to Lab Assi
 
 ## Goal
 In this Lab Assignment you will learn to:
+
 1. Create and run Unit tests
 2. Use the debugger 
 3. Write cleaner code
