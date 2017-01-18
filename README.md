@@ -138,7 +138,8 @@ int[] answer = {3, 6, 4, 3};
 ```
 
 ### Alternative testing
-Perhaps we do not want to wait until we have a functioning readData method before testing ERDataAnalyzer. In this case we have a few options.
+Perhaps we do not want to wait until we have a functioning readData method before testing ERDataAnalyzer. In this case we have a couple options.
+
 1. Make generateTestData() from our ERDataReaderTest class public. We could use this data since we know what the values are that get generated. However, if we use this approach, we still don't necessarily know what the correct output should be of the ERDataAnalyzer functions - we would only know what the input data is.
 
 2. Fabricate simpler test data.  Instead of calculating statistics on a 4 x 7 x 24 array, we could create data for a 2 x 2 x 2 array, for example.  It is much easier to determine the expected output from a smaller array.  However, if we take this approach, then we must alter our ERDataAnalyzer methods to operate on 3d arrays of _any_ size (which is something you should probably do anyway).
