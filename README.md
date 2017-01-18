@@ -38,6 +38,7 @@ Eclipse has the ability to import Java Projects directly from a github repositor
 
 ## 2. Replace the er_data modules
 The ERDataAnalyzer.java and ERDataReader.java files in assignment2/src/er\_data are the incomplete files from Assignment 1.  Replace these files with the versions you submitted. 
+
 1. Right-click on the er_data package under the assignment2/src folder in the Eclipse Package Explorer and select Import
 2. Choose General -> File System and click Next.
 3. Click Browse and navigate to the directory containing your ERDataAnalyzer.java and ERDataReader.java files then click OK.
