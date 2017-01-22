@@ -55,6 +55,7 @@ The program must be submitted prior to the start of the next lab.
 You will receive an email link to access the assignment repository via your mix account. You will be prompted to create a Team to work on assignment 3. If you choose to work with a partner, then only one of you should create the team, and the other person should join it. If you decide to work individually, you must still create a team. You will then be given a link to your team's private repository containing the starter code for the assignment.
 ### Importing the Project into Eclipse
 The version of Eclipse on the lab computers comes with a Git plugin. If your own computer's Eclipse does not, you can install the EGit plugin for Eclipse.
+
 1. Open Eclipse
 2. Click File -> Import
 3. Select Git -> Projects from Git. Click Next.
