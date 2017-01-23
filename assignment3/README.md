@@ -52,7 +52,8 @@ The program must be submitted prior to the start of the next lab.
 
 ## Working on the Assignment
 ### Getting access to your repository
-You will receive an email link to access the assignment repository via your mix account. You will be prompted to create a Team to work on assignment 3. If you choose to work with a partner, then only one of you should create the team, and the other person should join it. If you decide to work individually, you must still create a team. You will then be given a link to your team's private repository containing the starter code for the assignment.
+You will receive an email link to your private copy of the assignment 3 starter code. Follow the steps below to import the project from Github into Eclipse.
+
 ### Importing the Project into Eclipse
 The version of Eclipse on the lab computers comes with a Git plugin. If your own computer's Eclipse does not, you can install the EGit plugin for Eclipse.
 
@@ -65,6 +66,8 @@ The version of Eclipse on the lab computers comes with a Git plugin. If your own
 7. Choose an empty directory for this repository. For example `code/cs111/lab_assignment_3`. Click Next.
 8. Select Import existing Eclipse Projects. Click Next.
 9. Ensure Eclipse has found the assignment 3 project. Click Finish.
-### Uploading Changes back to Github
-### Synchronizing with your Partner
+
+### Submitting the Assignment
+Submit the GroceryList.java file via Ecampus.
+
 
