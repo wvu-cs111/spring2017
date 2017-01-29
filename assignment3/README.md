@@ -12,14 +12,6 @@
 
 [Working on the Assignment](#working-on-the-assignment)
 
-#### Table of Contents 
-
-[Problem Description](#problem-description)
-
-[Requirements](#requirements)
-
-[Design Specifications](#design-specifications)
-
 ## Problem Description
 In this lab assignment, you are given a program written by someone else. This program was designed to provide the user with the ability to create, view, and edit grocery lists. As often happens to programs as more features are added, the code has become bloated and disorganized. It is now difficult to understand the code or extend the functionality of the program. You are facing a common problem referred to as **code debt**.
 
