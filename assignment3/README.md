@@ -1,5 +1,16 @@
 # Lab Assignment 3: Refactoring & Validation
 
+#### Table of Contents 
+
+[Problem Description](#problem-description)
+
+[Requirements](#requirements)
+
+[Design Specifications](#design-specifications)
+
+[Deliverables](#deliverables)
+
+[Working on the Assignment](#working-on-the-assignment)
 
 #### Table of Contents 
 
@@ -46,4 +57,25 @@ The refactored program (the GroceryList.java file).
 ### Deadline
 
 The program must be submitted prior to the start of the next lab.
+
+## Working on the Assignment
+### Getting access to your repository
+You will receive an email link to your private copy of the assignment 3 starter code. Follow the steps below to import the project from Github into Eclipse.
+
+### Importing the Project into Eclipse
+The version of Eclipse on the lab computers comes with a Git plugin. If your own computer's Eclipse does not, you can install the EGit plugin for Eclipse.
+
+1. Open Eclipse
+2. Click File -> Import
+3. Select Git -> Projects from Git. Click Next.
+4. Select "Clone URI". Click Next.
+5. Enter your team's repository URI. It will have the form `https://github.com/wvu-cs111/lab-assignment-3-<your-team-name>.git` then Click Next.
+6. Ensure the `master` branch is selected. Click Next.
+7. Choose an empty directory for this repository. For example `code/cs111/lab_assignment_3`. Click Next.
+8. Select Import existing Eclipse Projects. Click Next.
+9. Ensure Eclipse has found the assignment 3 project. Click Finish.
+
+### Submitting the Assignment
+Submit the GroceryList.java file via Ecampus.
+
 
