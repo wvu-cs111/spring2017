@@ -102,3 +102,16 @@ To upload your code to Github:
 
 If you are not confident with Git & Github, you should also save your code using other means. You may submit your code via Ecampus only as a last resort.
 
+#### Helpful Links
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/index.html
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html
+
+http://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+
+https://docs.oracle.com/javase/tutorial/java/generics/types.html
+
+https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
+
+
