@@ -84,9 +84,9 @@ To submit your code, upload it to your assignment 4 Github repository. You may u
 This assignment is due prior to the start of the next lab. This is a hard deadline - **no late work will be graded**.
 
 ### Working on the Assignment
-To downlyour project:
+To download your project:
 
-1. Import the project from the github repository into Eclipse ([instructions](https://github.com/wvu-cs111/spring2017/blob/master/assignment3/README.md#importing-the-project-into-eclipse))
+1. Import the project from your Github repository into Eclipse ([instructions](https://github.com/wvu-cs111/spring2017/blob/master/assignment3/README.md#importing-the-project-into-eclipse))
 2. Create the MyArrayList class in the ```src/``` folder.
 3. Create the MyArrayListTest JUnit test class in the ```tests/``` folder
 
@@ -99,4 +99,6 @@ To upload your code to Github:
 5. Enter a message describing the changes being uploaded
 6. Enter your Github username and password
 7. Select "Commit and Push"
+
+If you are not confident with Git & Github, you should also save your code using other means. You may submit your code via Ecampus only as a last resort.
 
