@@ -11,11 +11,13 @@
 
 [Deliverables](#deliverables)
 
+[Working on the Assignment](#working-on-the-assignment)
+
 ### Problem Description
 
 In Lab Assignment 3, we worked with a program which allowed a user to interact with a grocery list. Through the program's menu system, the user could perform a limited number of actions on the grocery list. The actual implementation of the grocery list was relied on the array **[data structure]**(https://en.wikipedia.org/wiki/Data_structure). The user's actions were translated into operations on the array itself. This setup conceals the underlying implementation of the list. In doing so, the user does not have to worry about low-level details when working with the grocery list. Whereas in the grocery list program we created a set of functions within the main program to manipulate the array, these abstractions more often exist as classes of their own.
 
-A Java [ArrayList](http://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) is a **data structure** implementing the List [**abstract data type**](https://en.wikipedia.org/wiki/Abstract_data_type) similar to the grocery list. Through the ArrayList's class interface, it provides a convenient set of methods for working with collections of data. Internally, the ArrayList uses a standard Array to store the data. The low-level details of managing the array are encapsulated by the ArrayList class.
+A Java [ArrayList](http://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) is a **data structure** implementing the List [**abstract data type**](https://en.wikipedia.org/wiki/Abstract_data_type). Through the ArrayList's class interface, it provides a convenient set of methods for working with collections of data. Internally, the ArrayList uses a standard Array to store the data. The low-level details of managing the array are encapsulated by the ArrayList class.
 
 In this lab, we will encounter the following new topics:
 * The Basics of Classes
@@ -76,5 +78,25 @@ Your submission must contain:
 
 Neither file should contain a ```main``` method.
 
+To submit your code, upload it to your assignment 4 Github repository. You may upload your code several times. I will grade the must recent version submitted before deadline.
+
 #### Submission Deadline
 This assignment is due prior to the start of the next lab. This is a hard deadline - **no late work will be graded**.
+
+### Working on the Assignment
+To downlyour project:
+
+1. Import the project from the github repository into Eclipse ([instructions](https://github.com/wvu-cs111/spring2017/blob/master/assignment3/README.md#importing-the-project-into-eclipse))
+2. Create the MyArrayList class in the ```src/``` folder.
+3. Create the MyArrayListTest JUnit test class in the ```tests/``` folder
+
+To upload your code to Github:
+
+1. In Eclipse Package Explorer, right-click on the assignment 4 project folder
+2. Select Team -> Add to Index
+3. Right-click on the assignment 4 project folder again
+4. Select Team -> Commit
+5. Enter a message describing the changes being uploaded
+6. Enter your Github username and password
+7. Select "Commit and Push"
+
