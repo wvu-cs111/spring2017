@@ -27,7 +27,7 @@ In this lab, we will encounter the following new topics:
 
 ### Requirements
 
-In this assignment, you will implement a lightweight version of an ArrayList class. You may refer to the Java code and documentation for guidance, but you must write the implementation yourself. Additionally, you must write javadocs as well as unit tests for the class's methods. The use of good style is now a requirement. Furthermore, you must remain in lab for the entirety of the class period unless you can demonstrate that you have correctly completed the assignment and understand the topics involved.
+In this assignment, you will implement a lightweight version of an ArrayList class. You may refer to the Java code and documentation for guidance, but you must write the implementation yourself. Additionally, you must write unit tests for the class's methods. The use of good style is now a requirement. Furthermore, you must remain in lab for the entirety of the class period unless you can demonstrate that you have correctly completed the assignment and understand the topics involved.
 
 ### Design Specifications
 
