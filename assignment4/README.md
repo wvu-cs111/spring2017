@@ -38,6 +38,8 @@ You must implement the MyArrayList class with the following public methods.
 MyArrayList(int initialCapacity)
 MyArrayList()
 // Required public methods
+add(E e)
+add(int index, E element)
 get(int index)
 set(int index, E element)
 size()
@@ -45,16 +47,18 @@ indexOf(Object o)
 isEmpty()
 remove(int index)
 remove(Object o)
-removeRange(int fromIndex, int toIndex)
-clear()
 contains(Object o)
-clone()
-toArray()
 ```
 
 Your public interface must exactly conform to the above function declarations (including spelling and capitalization).  These methods must produce the same end result as the corresponding methods in Java's ArrayList class. However, your underlying implementation can (and probably will) differ. Internally, you are to implement MyArrayList using the Array data structure. The methods must throw exceptions where necessary. MyArrayList must be able to grow in size to store a number of elements beyond its initial capacity. Some methods may also require MyArrayList to shrink in size. Also be careful to use [**deep or shallow copies**](https://en.wikipedia.org/wiki/Object_copying#Methods_of_copying) as necessary.
 
-You must write a test class to validate MyArrayList against all potential use cases. All method declarations (public and private) must be preceded with a javadoc block comment.
+You must write a test class with test functions for the following public methods (except the constructors):
+```java
+add(E e)
+get(int index)
+size()
+remove(int index)
+```
 
 #### Bonus Objectives
 
