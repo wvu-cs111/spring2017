@@ -31,7 +31,7 @@ See [Lab5.pdf](Lab5.pdf) for more detailed instructions.
 2. Use the UML diagram's spelling and capitalization for the function names.
 3. Have your functions return the same data type as specified by the UML diagram.
 4. Have your function parameters match the data types given by the UML diagram.
-5. Make sure WholeNumber.java and Fraction.java have the ```package assignment5;``` statement at the top of the file.
+5. Make sure WholeNumber.java and Fraction.java have the ```package edu.wvu.cs111.assignment5;``` statement at the top of the file.
 
 ### Deliverables
 
