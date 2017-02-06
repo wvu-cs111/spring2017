@@ -1,5 +1,5 @@
 # Lab Assignment 5
-## The Whole Number Class
+## The Mixed Number Class
 
 ### Table of Contents 
 
@@ -15,14 +15,14 @@
 
 ### Problem Description
 
-You will be implementing the WholeNumber class which utilizes an already-implemented Fraction class.
+You will be implementing the MixedNumber class which utilizes an already-implemented Fraction class.
 
 See [Lab5.pdf](Lab5.pdf) for more detailed instructions.
 
 ### Requirements
 
 1. Fulfill the requirements as given by [the instructions](Lab5.pdf).
-2. Test your WholeNumber class using (ideally) a JUnit Test class or at least a separate ```main()``` program.
+2. Test your MixedNumber class using (ideally) a JUnit Test class or at least a separate ```main()``` program.
 3. Push your code back to your assignment 5 Github repository.
 
 ### Design Specifications
@@ -31,7 +31,7 @@ See [Lab5.pdf](Lab5.pdf) for more detailed instructions.
 2. Use the UML diagram's spelling and capitalization for the function names.
 3. Have your functions return the same data type as specified by the UML diagram.
 4. Have your function parameters match the data types given by the UML diagram.
-5. Make sure WholeNumber.java and Fraction.java have the ```package edu.wvu.cs111.assignment5;``` statement at the top of the file.
+5. Make sure MixedNumber.java and Fraction.java have the ```package edu.wvu.cs111.assignment5;``` statement at the top of the file.
 
 ### Deliverables
 
