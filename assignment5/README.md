@@ -37,7 +37,8 @@ See [Lab5.pdf](Lab5.pdf) for more detailed instructions.
   3. If Constructing a MixedNumber from a whole number and a fraction, consider the MixedNumber to be negative if either the whole number or the fraction is negative.
 6. All MixedNumbers should automatically be simplified.
 7. When constructing a MixedNumber from a Fraction, you must use the Fraction's copy Constructor to avoid a shallow copy.
-8. Make sure MixedNumber.java and Fraction.java have the ```package edu.wvu.cs111.assignment5;``` statement at the top of the file.
+8. Arithmetic operations on MixedNumbers return new MixedNumbers instead of altering the existing MixedNumbers.
+9. Make sure MixedNumber.java and Fraction.java have the ```package edu.wvu.cs111.assignment5;``` statement at the top of the file.
 
 ### Deliverables
 
