@@ -13,6 +13,8 @@
 
 [Working on the Assignment](#working-on-the-assignment)
 
+[Bug Fixes](#bug-fixes)
+
 ### Problem Description
 
 You will be implementing the MixedNumber class which utilizes an already-implemented Fraction class.
@@ -56,3 +58,7 @@ This assignment is due in one week prior to the start of the next lab.
 I will work on creating a single file with instructions on working with Github through Eclipse. For the time being, you can refer to the previous labs' (3 and 4) readme files.
 
 You will need to refer to the included Fraction class for how to work with Fraction objects.
+
+### Bug Fixes
+Issues were found with the Fraction class and .classpath file.
+Replace the Fraction.java class and .classpath files in your repository with the Fraction.java and .classpath in this repository.
