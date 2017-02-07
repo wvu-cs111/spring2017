@@ -33,14 +33,14 @@ See [Lab5.pdf](Lab5.pdf) for more detailed instructions.
 2. Use the UML diagram's spelling and capitalization for the function names.
 3. Have your functions return the same data type as specified by the UML diagram.
 4. Have your function parameters match the data types given by the UML diagram.
-5. Negative MixedNumbers must obey the following rules:
-  1. If the MixedNumber's whole part is non-zero, set the whole number to be negative and set the numerator and denominator of the fraction to be positive.
-  2. If the MixedNumber's whole part is zero, set the numerator of the Fraction to be negative.
-  3. If Constructing a MixedNumber from a whole number and a fraction, consider the MixedNumber to be negative if either the whole number or the fraction is negative.
+5. MixedNumbers should obey the following negativity rules:
+  1. The negativity of a MixedNumber should be represented by its whole part if it has one, or the numerator of the Fraction if it does not.
+  2. The MixedNumber should be negative if either the whole number or the fraction is negative (but not both).
+  3. The MixedNumber should be positive if both the whole number and the fraction are negative.
 6. All MixedNumbers should automatically be simplified.
 7. When constructing a MixedNumber from a Fraction, you must use the Fraction's copy Constructor to avoid a shallow copy.
 8. Arithmetic operations on MixedNumbers return new MixedNumbers instead of altering the existing MixedNumbers.
-9. Make sure MixedNumber.java and Fraction.java have the ```package edu.wvu.cs111.assignment5;``` statement at the top of the file.
+9. The first line in MixedNumber.java, Fraction.java, and FractionException.java should be ```package edu.wvu.cs111.assignment5;```
 
 ### Deliverables
 
@@ -61,4 +61,4 @@ You will need to refer to the included Fraction class for how to work with Fract
 
 ### Bug Fixes
 Issues were found with the Fraction class and .classpath file.
-Replace the Fraction.java class and .classpath files in your repository with the Fraction.java and .classpath in this repository.
+Replace the Fraction.java class and .classpath files in your repository with the Fraction.java and .classpath files in this repository.
