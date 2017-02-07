@@ -59,6 +59,8 @@ I will work on creating a single file with instructions on working with Github t
 
 You will need to refer to the included Fraction class for how to work with Fraction objects.
 
+**HINT:** Try to leverage the existing code for Fraction's to do most of the work!!! Therefore, you should focus on writing bulletproof methods to convert back and forth from MixedNumber to Fraction.
+
 ### Bug Fixes
 Issues were found with the Fraction class and .classpath file.
 Replace the Fraction.java class and .classpath files in your repository with the Fraction.java and .classpath files in this repository.
