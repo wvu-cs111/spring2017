@@ -34,7 +34,12 @@ You are given an abstract class, ```Shape```, and two mostly-implemented subclas
 3. For a BONUS, implement ```combine()``` method for classes which have the ```Combinable``` interface.
 
 ### Design Specifications
-The starting code and UML diagram provide the design specifications. Do not change any class names or public methods.
+The starting code and UML diagram provide most of the design specifications.
+
+```Square``` should have a single getter and setter for it's side.  Implement ```getSide(double s)``` and ```setSide(double side)```.
+However, remember ```Square``` inherits from its superclass! Therefore methods like ```Square.setWidth()``` should not be able undermine it's .. _Squareyness_.
+
+```Circle``` should have a single setter and getter, ```setRadius(double r)``` and ```getRadius(double r)```
 
 ### Deliverables
 
