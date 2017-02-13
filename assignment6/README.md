@@ -19,7 +19,7 @@
 
 This lab combines the concepts of inheritance, interfaces, polymorphism, and generic types. You are given a semi-implemented hierarchical class structure. Your task is to complete the implementation by creating the remaining subclasses and implementing any remaining methods.
 
-![UML Diagram](shapes_uml.png)
+![UML Diagram](shape_uml.png)
 
 The classes relate to basic geometric figures. They have properties such as length, width, area, and shape. Some shapes have more in common than other shapes. These commonalities are described by either inheritance, interfaces, or both.
 
