@@ -31,13 +31,14 @@ You are given an abstract class, ```Shape```, and two mostly-implemented subclas
 
 1. Create two new subclasses, ```Circle``` and ```Square```, and implement their inherited methods (if they differ from their superclass).
 2. Implement the Comparable interface. Compare shapes by their **AREAS**.
+3. Look for any other things needing implemented.  Hint: Look for // TODO comments.
 3. For a BONUS, implement ```combine()``` method for classes which have the ```Combinable``` interface.
 
 ### Design Specifications
 The starting code and UML diagram provide most of the design specifications.
 
 ```Square``` should have a single getter and setter for it's side.  Implement ```getSide(double s)``` and ```setSide(double side)```.
-However, remember ```Square``` inherits from its superclass! Therefore methods like ```Square.setWidth()``` should not be able undermine it's .. _Squareyness_.
+However, remember ```Square``` inherits from its superclass! Therefore methods like ```Square.setWidth()``` should not be able undermine it's .. _Squareyness_. A similar situation exists with ```Triangle```.
 
 ```Circle``` should have a single setter and getter, ```setRadius(double r)``` and ```getRadius(double r)```
 
