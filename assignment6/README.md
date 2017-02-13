@@ -47,4 +47,7 @@ To submit your code, push your code back to your lab 6 Github repository. For ea
 This assignment is due in one week prior to the start of the next lab.
 
 ### Working on the Assignment
+Tips:
+https://en.wikipedia.org/wiki/Heron's_formula
+
 Refer to the previous labs' (3 and 4) readme files for how to import from Github and upload back.
