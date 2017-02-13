@@ -36,7 +36,7 @@ You are given an abstract class, ```Shape```, and two mostly-implemented subclas
 3. For a BONUS, implement ```combine()``` method for classes which have the ```Combinable``` interface.
 
 ### Design Specifications
-The starting code inherently determines the design specifications. Do not change any class names or public methods.
+The starting code and UML diagram provide the design specifications. Do not change any class names or public methods.
 
 ### Deliverables
 
