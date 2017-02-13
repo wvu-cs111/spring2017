@@ -32,7 +32,7 @@ Inheritance is not always the best way to describe sets of common features. For 
 You are given an abstract class, ```Shape```, and two mostly-implemented subclasses, ```Rectangle``` and ```Triangle```. There is also a ```Combinable``` interface which some of the subclasses must implement. Your task is to:
 
 1. Create two new subclasses, ```Circle``` and ```Square```, and implement their inherited methods (if they from their superclass).
-2. Implement the ```combine()``` method for classes which have the ```Combinable`` interface.
+2. Implement the ```combine()``` method for classes which have the ```Combinable``` interface.
 
 ### Design Specifications
 
