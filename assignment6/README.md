@@ -13,8 +13,6 @@
 
 [Working on the Assignment](#working-on-the-assignment)
 
-[Bug Fixes](#bug-fixes)
-
 ### Problem Description
 
 This lab combines the concepts of inheritance, interfaces, polymorphism, and generic types. You are given a semi-implemented hierarchical class structure. Your task is to complete the implementation by creating the remaining subclasses and implementing any remaining methods.
