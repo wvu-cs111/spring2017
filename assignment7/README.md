@@ -9,9 +9,9 @@
 
 [Design Specifications](#design-specifications)
 
-[Deliverables](#deliverables)
-
 [Working on the Assignment](#working-on-the-assignment)
+
+[Deliverables](#deliverables)
 
 ### Problem Description
 
