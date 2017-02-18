@@ -29,12 +29,22 @@ In this lab, you will parse and evaluate prefix expressions using a queue. An ex
 
 _Tokens_ are the individual elements of an expression. In this case our tokens are operators and operands.  For the purposes of this exercise, a valid operand is any integer value. Valid operators will be limited to: + - \* \\
 
-You will be given unit tests. Use the unit tests to discern expected behaviors and to check your solutions. Study the unit tests so you can learn how to create them.
+You will be given unit tests. Use the unit tests to discern expected behaviors and to check your solutions. Study the unit tests so you can learn how to create them. Also, review the expressions.txt file in your project's data folder to see the expressions used for testing.
+
+#### Bonus Points
+You will receive bonus points if you can tokenize and evaluate expressions which have:
+* negative integers
+* multi-digit integers
+As in, any operand x where -9 < x > 9 )
 
 ### Design Specifications
 You must use the given ```Queue``` of tokens to evaluate the expression. If the expression contains invalid tokens, the ```tokenize``` function should throw an ```IllegalArgumentException```. Furthermore, if the expression itself is not a valid mathematical expression, the ```evaluate``` function should also throw an ```IllegalArgumentException```.
 
 You may create helper functions to check if tokens are valid, or if a token is an operator or integer.
+In addition to running the unit tests, you may use the ```main()``` function to test your code. You can call the ```readExpressions``` method to get a List of Strings, where each String is an expression. You can then pass a String into the tokenize function.
+### Working on the Assignment
+1. **Write the tokenize method:** Begin by creating an empty ```Queue<String>()```. To help you tokenize, see the ```.split()``` method: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String- . Once you've split the String into an array of substrings, check each element to see if it is a valid token. If it is, ```enqueue``` it. Otherwise, throw the ```IllegalArgumentException```. Return the queue when done.
+2. **Write the evaluate method:** The evaluate method will receive the ```Queue<String>``` of tokens.
 
 ### Deliverables
 
@@ -45,7 +55,3 @@ To submit your code, push your code back to your lab 6 Github repository. For ea
 #### Submission Deadline
 
 This assignment is due **by the end of this lab**.
-
-### Working on the Assignment
-Tips:
-
