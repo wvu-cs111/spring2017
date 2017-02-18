@@ -22,11 +22,14 @@ In this lab, you will parse and evaluate prefix expressions using a queue. An ex
 | 2 - 3         | - 2 3       |
 | 2 * ( 2 + 3 ) | \* 2 + 2 3  |
 
+
 ### Requirements
 1. Write a function to _tokenize_ an expression.
-2. Write a function to evaluate the tokenized expression and returns the result.
+2. Write a function to evaluate the tokenized expression and return the result.
 
 _Tokens_ are the individual elements of an expression. In this case our tokens are operators and operands.  For the purposes of this exercise, a valid operand is any integer value. Valid operators will be limited to: + - \* \\
+
+You will be given unit tests. Use the unit tests to discern expected behaviors and to check your solutions. Study the unit tests so you can learn how to create them.
 
 ### Design Specifications
 You must use the given ```Queue``` of tokens to evaluate the expression. If the expression contains invalid tokens, the ```tokenize``` function should throw an ```IllegalArgumentException```. Furthermore, if the expression itself is not a valid mathematical expression, the ```evaluate``` function should also throw an ```IllegalArgumentException```.
