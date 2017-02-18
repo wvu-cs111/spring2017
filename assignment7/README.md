@@ -1,5 +1,5 @@
-# Lab Assignment 6
-## Inheritance and Interfaces with Shapes
+# Lab Assignment 7
+## Prefix Expressions with Queues
 
 ### Table of Contents 
 
@@ -15,45 +15,34 @@
 
 ### Problem Description
 
-This lab combines the concepts of inheritance, interfaces, polymorphism, and generic types. You are given a semi-implemented hierarchical class structure. Your task is to complete the implementation by creating the remaining subclasses and implementing any remaining methods.
+In this lab, you will parse and evaluate prefix expressions using a queue. An expression written with [prefix notation](https://en.wikipedia.org/wiki/Polish_notation) places the operator before the operands. Prefix notation removes the need for parenthesis.
 
-![UML Diagram](shape_uml.png)
-
-The classes relate to basic geometric figures. They have properties such as length, width, area, and shape. Some shapes have more in common than other shapes. These commonalities are described by either inheritance, interfaces, or both.
-
-As an example, the area of any of our shapes can be computed. However, the properties needed to calculate their shapes differ. A rectangle's area is calculated from its length and width whereas a circle uses its radius.
-
-Inheritance is not always the best way to describe sets of common features. For example, some of our shapes can be combined to form larger versions of themselves. Two equal sized squares can be combined in a rectangle.  Some triangles can even be combined into a rectangle. Circles, however, can never be combined into any kind of quadrilateral. Furthermore, some classes which are not Shapes at all could conceivably be combined in meaningful ways. Interfaces are an excellent way to handle these kinds of abstract behaviors.
+| Infix         | Prefix      |
+| ------------- | ----------- |
+| 2 - 3         | - 2 3       |
+| 2 * ( 2 + 3 ) | \* 2 + 2 3  |
 
 ### Requirements
+1. Write a function to _tokenize_ an expression.
+2. Write a function to evaluate the tokenized expression and returns the result.
 
-You are given an abstract class, ```Shape```, and two mostly-implemented subclasses, ```Rectangle``` and ```Triangle```. There is also a ```Combinable``` interface which some of the subclasses must implement. Your task is to:
-
-1. Create two new subclasses, ```Circle``` and ```Square```, and implement their inherited methods (if they differ from their superclass).
-2. Implement the Comparable interface. Compare shapes by their **AREAS**.
-3. Look for any other things needing implemented.  Hint: Look for // TODO comments.
-3. For a BONUS, implement ```combine()``` method for classes which have the ```Combinable``` interface.
+_Tokens_ are the individual elements of an expression. In this case our tokens are operators and operands.  For the purposes of this exercise, a valid operand is any integer value. Valid operators will be limited to: + - \* \\
 
 ### Design Specifications
-The starting code and UML diagram provide most of the design specifications.
+You must use the given ```Queue``` of tokens to evaluate the expression. If the expression contains invalid tokens, the ```tokenize``` function should throw an ```IllegalArgumentException```. Furthermore, if the expression itself is not a valid mathematical expression, the ```evaluate``` function should also throw an ```IllegalArgumentException```.
 
-```Square``` should have a single getter and setter for it's side.  Implement ```getSide(double s)``` and ```setSide(double side)```.
-However, remember ```Square``` inherits from its superclass! Therefore methods like ```Square.setWidth()``` should not be able undermine it's .. _Squareyness_. A similar situation exists with ```Triangle```.
-
-```Circle``` should have a single setter and getter, ```setRadius(double r)``` and ```getRadius(double r)```
+You may create helper functions to check if tokens are valid, or if a token is an operator or integer.
 
 ### Deliverables
 
-Each student is to complete the assignment individually, however you may discuss ideas with others.
+You are to complete the assignment individually, however you may discuss ideas with others.
 
 To submit your code, push your code back to your lab 6 Github repository. For each submission, you will receive an email containing the results of my secret JUnit tests. Your grade will be based on your last push prior to the deadline. You may submit your code multiple times prior to the deadline.
 
 #### Submission Deadline
 
-This assignment is due in one week prior to the start of the next lab.
+This assignment is due **by the end of this lab**.
 
 ### Working on the Assignment
 Tips:
-https://en.wikipedia.org/wiki/Heron's_formula
 
-Refer to the previous labs' (3 and 4) readme files for how to import from Github and upload back.
