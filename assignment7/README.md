@@ -46,6 +46,7 @@ In addition to running the unit tests, you may use the ```main()``` function to 
     3. Otherwise, if there were fewer than three tokens left, we do not have a valid expression.
     4. If the three tokens can be evaluated (an operator followed by two operands), evaluate it and enqueue the result.
     5. Otherwise, enqueue the first of the three tokens back into the queue.
+
 Keep in mind that we may be enqueueing doubles into the queue. Therefore when checking if tokens are operands, they could be either integers or doubles.
 
 ### Deliverables
