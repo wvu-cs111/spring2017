@@ -51,7 +51,7 @@ In addition to running the unit tests, you may use the ```main()``` function to 
 ### Deliverables
 You are to complete the assignment individually, however you may discuss ideas with others.
 
-To submit your code, push your code back to your Github repository. For each submission, you will receive an email containing the results of my secret JUnit tests. Your grade will be based on your last push prior to the deadline. You may submit your code multiple times prior to the deadline.
+To submit your code, push your code back to your Github repository. For each submission, you will receive an email containing the results the automated JUnit tests. Your grade will be based on your last push prior to the deadline. You may submit your code multiple times prior to the deadline.
 
 #### Submission Deadline
 This assignment is due **by the end of this lab**.
