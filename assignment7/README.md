@@ -41,11 +41,11 @@ In addition to running the unit tests, you may use the ```main()``` function to 
 2. **Write the evaluate method:** The evaluate method will receive the ```Queue<String>``` of tokens. Use the ```peek``` and ```dequeue``` methods to access the next element in the queue. The general algorithm for evaluating a prefix expression using a queue is as follows:
   1. First, check if the first token in the queue is an operator. If not, then the expression is not valid.
   2. Repeat the following steps until the result is returned or the expression is determined to be invalid:
-    2a. Dequeue up to three token from the queue
-    2b. If there was only one token in the queue, and it's a number, return it as the answer.
-    2c. Otherwise, if there were fewer than three tokens left, we do not have a valid expression.
-    2d. If the three tokens can be evaluated (an operator followed by two operands), evaluate it and enqueue the result.
-    2e. Otherwise, enqueue the first of three tokens back into the queue.
+    1. Dequeue up to three token from the queue
+    2. If there was only one token in the queue, and it's a number, return it as the answer.
+    3. Otherwise, if there were fewer than three tokens left, we do not have a valid expression.
+    4. If the three tokens can be evaluated (an operator followed by two operands), evaluate it and enqueue the result.
+    5. Otherwise, enqueue the first of three tokens back into the queue.
 
 ### Deliverables
 You are to complete the assignment individually, however you may discuss ideas with others.
