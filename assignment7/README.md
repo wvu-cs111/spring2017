@@ -44,10 +44,8 @@ In addition to running the unit tests, you may use the ```main()``` function to 
     1. Dequeue up to three tokens from the queue. You can call ```hasNext``` to see if there is another element in the queue.
     2. If there was only one token in the queue, and it's a number, return it as the answer.
     3. Otherwise, if there were fewer than three tokens left, we do not have a valid expression.
-    4. If the three tokens can be evaluated (an operator followed by two operands), evaluate it and enqueue the result.
+    4. If the three tokens can be evaluated (an operator followed by two operands), evaluate it and enqueue the result. Keep in mind that we may be enqueueing doubles into the queue. Therefore when checking if tokens are operands, they could be either integers or doubles.
     5. Otherwise, enqueue the first of the three tokens back into the queue.
-
-Keep in mind that we may be enqueueing doubles into the queue. Therefore when checking if tokens are operands, they could be either integers or doubles.
 
 ### Deliverables
 You are to complete the assignment individually, however you may discuss ideas with others.
