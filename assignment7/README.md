@@ -14,7 +14,7 @@
 [Deliverables](#deliverables)
 
 ### Problem Description
-In this lab, you will parse and evaluate prefix expressions using a queue. An expression written with [prefix notation](https://en.wikipedia.org/wiki/Polish_notation) places the operator before the operands. Prefix notation removes the need for parenthesis.
+In this lab, you will parse and evaluate prefix expressions using a queue. An expression written with [prefix notation](https://en.wikipedia.org/wiki/Polish_notation) places the operator before the operands. Prefix notation removes the need for parentheses.
 
 | Infix         | Prefix      |
 | ------------- | ----------- |
