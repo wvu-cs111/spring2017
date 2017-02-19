@@ -40,12 +40,13 @@ In addition to running the unit tests, you may use the ```main()``` function to 
 1. **Write the tokenize method:** Begin by creating an empty ```Queue<String>()```. To help you tokenize, see the ```.split()``` method: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String- . Once you've split the String into an array of substrings, check each element to see if it is a valid token (you may want use ```Integer.parseInt``` to test if the token is an integer). If it is, ```enqueue``` it. Otherwise, throw the ```IllegalArgumentException```. Return the queue when done.
 2. **Write the evaluate method:** The evaluate method will receive the ```Queue<String>``` of tokens. Use the ```peek``` and ```dequeue``` methods to access the next element in the queue. The general algorithm for evaluating a prefix expression using a queue is as follows:
   1. Check if the first token in the queue is an operator. If it isn't, then the expression is not valid.
-  2. Repeat the following steps until the result is returned or the expression is determined to be invalid:
+  2. Create either a list or three variables to hold the tokens we will dequeue.
+  3. Repeat the following steps until the result is returned or the expression is determined to be invalid:
     1. Dequeue up to three tokens from the queue. You can call ```hasNext``` to see if there is another element in the queue.
     2. If there was only one token in the queue, and it's a number, return it as the answer.
     3. Otherwise, if there were fewer than three tokens left, we do not have a valid expression.
     4. If the three tokens can be evaluated (an operator followed by two operands), evaluate it and enqueue the result. Keep in mind that we may be enqueueing doubles into the queue. Therefore when checking if tokens are operands, they could be either integers or doubles.
-    5. Otherwise, enqueue the first of the three tokens back into the queue.
+    5. Otherwise, enqueue the first of the three tokens back into the queue. Keep the remaining two tokens for when you repeat the steps. In other words, you will only need to dequeue one token in the next iteration.
 
 ### Deliverables
 You are to complete the assignment individually, however you may discuss ideas with others.
