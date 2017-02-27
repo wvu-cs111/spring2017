@@ -52,7 +52,7 @@ To help the tokenize method, you may wish to create helper functions to check if
     1. If the size of the stack is < \2, this is an invalid postfix expression.  Throw an ```IllegalArgumentException```.
     2. If the size of the stack is >= 2 ,  **pop** two values from the stack.  The first value popped becomes ```operand2```, and the second becomes ```operand1```.  Evaluate the subexpression as: ```operand1  operator  operand2```
     3. **Push** the result of the subexpression back onto the stack
-  3. Continue until all tokens in the array have been processed.
+  3. Continue until all tokens in the list have been processed.
     1. If the size of the stack is 1, pop and return your answer.
     2. If the size of the stack is > 1, the expression is invalid and your program should throw an ```IllegalArgumentException```.
 
