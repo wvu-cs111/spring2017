@@ -28,7 +28,12 @@ In this lab, you will parse and evaluate postfix expressions using a **stack**. 
 
 _Tokens_ are the individual elements of an expression. In this case our tokens are operators (+, -, \*, \\) and operands.  Each token in the test expressions will be separated by a space. For the purposes of this exercise, a valid operand is any legal unsigned integer. Valid operators will be limited to: + - \* \\
 
-You will be given unit tests. Use the unit tests to discern expected behaviors and to check your solutions. Study the unit tests so you can learn how to create them. If a test is failing, place a breakpoint on the line in the test which calls your method. Then, run the debugger. Use the Step Over button to execute the entire line of code and move to the next. Use the Step Into button to begin executing the code within a function call on current line.  Also, review the expressions.txt file in your project's data folder to see the expressions used for testing.
+The evaluate function does not need to process floating point values. It is sufficient to perform integer division.
+
+You will be given unit tests. 
+* Use the unit tests to discern expected behaviors and to check your solutions. Study the unit tests so you can learn how to create them. 
+* If a test is failing, place a breakpoint on the line in the test which calls your method. Then, run the debugger. Use the Step Over button to execute the entire line of code and move to the next. Use the Step Into button to begin executing the code within a function call on current line. 
+* Review the expressions.txt file in your project's data folder to see the expressions used for testing.
 
 ### Design Specifications
 There is a generic Stack class in your project folder. It will be used by the evaluate method. 
@@ -50,7 +55,7 @@ To help the tokenize method, you may wish to create helper functions to check if
   1. If the current token is an operand, convert it to an int (using ```Integer.parseInt```)   and push it onto the Stack.
   2. If the current token is an operator:
     1. If the size of the stack is < \2, this is an invalid postfix expression.  Throw an ```IllegalArgumentException```.
-    2. If the size of the stack is >= 2 ,  **pop** two values from the stack.  The first value popped becomes ```operand2```, and the second becomes ```operand1```.  Evaluate the subexpression as: ```operand1  operator  operand2```
+    2. If the size of the stack is >= 2 ,  **pop** two values from the stack.  The first value popped becomes ```operand2```, and the second becomes ```operand1```.  Evaluate the subexpression as: ```operand1  operator  operand2``` (if the operation is division, performing integer division is sufficient)
     3. **Push** the result of the subexpression back onto the stack
   3. Continue until all tokens in the array have been processed.
     1. If the size of the stack is 1, pop and return your answer.
