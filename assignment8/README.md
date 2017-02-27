@@ -14,7 +14,7 @@
 [Deliverables](#deliverables)
 
 ### Problem Description
-In this lab, you will parse and evaluate postfix expressions using a **stack**. An expression written with [postfix notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation) places the operator after its operands. Like prefix notation, postfix notation is parentheses free, and easily evaluated without worrying about the precedence and associativity of operators.
+In this lab, you will parse and evaluate postfix expressions using a **stack**. An expression written with [postfix notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation) places the operator after its operands. Like prefix notation, postfix notation is parentheses free, and easily evaluated without worrying about the precedence and associativity of operators. Refer to [Understanding Prefix And Postfix Notation](Understanding_Prefix_And_Postfix_Notation.pdf) for additional help completing this assignment.
 
 | Infix         | Prefix      |
 | ------------- | ----------- |
