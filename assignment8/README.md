@@ -54,7 +54,7 @@ To help the tokenize method, you may wish to create helper functions to check if
 1. Iterate through the array of tokens one at a time:
   1. If the current token is an operand, convert it to an int (using ```Integer.parseInt```)   and push it onto the Stack.
   2. If the current token is an operator:
-    1. If the size of the stack is < \2, this is an invalid postfix expression.  Throw an ```IllegalArgumentException```.
+    1. If the size of the stack is < 2, this is an invalid postfix expression.  Throw an ```IllegalArgumentException```.
     2. If the size of the stack is >= 2 ,  **pop** two values from the stack.  The first value popped becomes ```operand2```, and the second becomes ```operand1```.  Evaluate the subexpression as: ```operand1  operator  operand2``` (if the operation is division, performing integer division is sufficient)
     3. **Push** the result of the subexpression back onto the stack
   3. Continue until all tokens in the array have been processed.
