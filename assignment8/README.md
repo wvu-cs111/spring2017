@@ -47,6 +47,11 @@ To help the tokenize method, you may wish to create helper functions to check if
   * If the substring is not an operand, test if it is one of the operators.
   * If it is not an operand or operator, then the tokenizer methods should throw an ```IllegalArgumentException```.
   * If all of the substrings are valid tokens, return the array of substrings.
+  * Remember:
+  ```java
+  "+" == "+"; // False
+  "+".equals("+"); // True
+  ```
 
 
 **Write the evaluate method:** The evaluate method will receive an array of Strings where each element is a token.  It will allocate an empty ```Stack<Integer>``` to evaluate the expression.   The general algorithm for evaluating a postfix expression using a stack is as follows: 
