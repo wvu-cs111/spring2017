@@ -47,6 +47,12 @@ To help the tokenize method, you may wish to create helper functions to check if
   * If the substring is not an operand, test if it is one of the operators.
   * If it is not an operand or operator, then the tokenizer methods should throw an ```IllegalArgumentException```.
   * If all of the substrings are valid tokens, return the array of substrings.
+  * Remember:
+  ```java
+  "+" == "+"; // False
+  
+  "+".equals("+"); // True
+  ```
 
 
 **Write the evaluate method:** The evaluate method will receive an array of Strings where each element is a token.  It will allocate an empty ```Stack<Integer>``` to evaluate the expression.   The general algorithm for evaluating a postfix expression using a stack is as follows: 
@@ -54,7 +60,7 @@ To help the tokenize method, you may wish to create helper functions to check if
 1. Iterate through the array of tokens one at a time:
   1. If the current token is an operand, convert it to an int (using ```Integer.parseInt```)   and push it onto the Stack.
   2. If the current token is an operator:
-    1. If the size of the stack is < \2, this is an invalid postfix expression.  Throw an ```IllegalArgumentException```.
+    1. If the size of the stack is < 2, this is an invalid postfix expression.  Throw an ```IllegalArgumentException```.
     2. If the size of the stack is >= 2 ,  **pop** two values from the stack.  The first value popped becomes ```operand2```, and the second becomes ```operand1```.  Evaluate the subexpression as: ```operand1  operator  operand2``` (if the operation is division, performing integer division is sufficient)
     3. **Push** the result of the subexpression back onto the stack
   3. Continue until all tokens in the array have been processed.
