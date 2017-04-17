@@ -3,7 +3,7 @@
 
 ### Objectives 
 1. Implement basic binary tree methods
-2. Understand how to build an search a binary search tree
+2. Understand how to build and search a binary search tree
 3. Play with binary trees
 4. Write JUnit tests to validate your code
 5. Push your code to Github
@@ -12,7 +12,7 @@
 ### Suggestions for experimentation
 Encode and decode a string with [Huffman coding] (https://en.wikipedia.org/wiki/Huffman_coding)
 
-Store an expression in a [binary expression tree] (https://en.wikipedia.org/wiki/Binary_expression_tree), use different tree traversals to create prefix/postfix/infix expressions. Bonus: Java 8 functional interface to evaluate the tree
+Convert an expression (prefix, postfix, infix) into a [binary expression tree] (https://en.wikipedia.org/wiki/Binary_expression_tree), use different tree traversals to create prefix/postfix/infix expressions. Bonus: Java 8 functional interface to evaluate the tree
 
 Create a family tree and convert it to a binary tree (remember, with a binary tree you only have one parent, so you won't be able to represent marriage).
 
