@@ -10,15 +10,15 @@
 6. Be curious, have fun
 
 ### Suggestions for experimentation
-Encode and decode a string with [Huffman coding] (https://en.wikipedia.org/wiki/Huffman_coding)
+Encode and decode a string with [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding)
 
-Convert an expression (prefix, postfix, infix) into a [binary expression tree] (https://en.wikipedia.org/wiki/Binary_expression_tree), use different tree traversals to create prefix/postfix/infix expressions. Bonus: Java 8 functional interface to evaluate the tree
+Convert an expression (prefix, postfix, infix) into a [binary expression tree](https://en.wikipedia.org/wiki/Binary_expression_tree), use different tree traversals to create prefix/postfix/infix expressions. Bonus: Java 8 functional interface to evaluate the tree
 
 Create a family tree and convert it to a binary tree (remember, with a binary tree you only have one parent, so you won't be able to represent marriage).
 
-Implement an [iterator] (https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html) for a tree. Perhaps different iterators for different traversals? Bonus: Maybe find a way to use a forEach() loop.
+Implement an [iterator](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html) for a tree. Perhaps different iterators for different traversals? Bonus: Maybe find a way to use a forEach() loop.
 
-For the bold, a skip tree version of a [skip list] (https://en.wikipedia.org/wiki/Skip_list)
+For the bold, a skip tree version of a [skip list](https://en.wikipedia.org/wiki/Skip_list)
 
 Or come up with something else (you should probably discuss with me first before deciding on a custom project)
 
