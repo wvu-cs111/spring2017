@@ -22,7 +22,7 @@ For the bold, a skip tree version of a [skip list](https://en.wikipedia.org/wiki
 
 Or come up with something else (you should probably discuss with me first before deciding on a custom project)
 
-#### Submission Deadline
+### Submission Deadline
 You can work on this lab throughout the week. The final submission will be due at the end of lab next week.
 
 Final submission should be uploaded to ECampus.
