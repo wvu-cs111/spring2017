@@ -5,7 +5,7 @@
 1. Implement basic binary tree methods
 2. Understand how to build and search a binary search tree
 3. Play with binary trees
-4. Write JUnit tests to validate your code
+4. Write tests (ideally JUnit) to validate your code
 5. Push your code to Github
 6. Be curious, have fun
 
